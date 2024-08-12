@@ -1,0 +1,32 @@
+/* Center the container and add top margin */
+.container {
+  text-align: center;
+  margin-top: 50px;
+}
+
+/* Style the color box */
+#color-box {
+  width: 200px;
+  height: 200px;
+  background-color: rgb(240, 240, 240);
+  margin: 0 auto; /* Center the box */
+  border: 1px solid #ccc;
+}
+
+/* Style the button */
+#change-color-btn {
+  margin-top: 20px;
+  padding: 10px 20px;
+  font-size: 16px;
+  cursor: pointer;
+  background-color: #4caf50;
+  color: white;
+  border: none;
+  border-radius: 5px;
+  transition: background-color 0.3s;
+}
+
+/* Change button color on hover */
+#change-color-btn:hover {
+  background-color: #45a049;
+}
